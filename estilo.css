@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); 
+
+:root{
+    --primaria: #F9720B;
+    --secundaria: #FCC609;
+    --terciaria: #A82A50;
+    --quaternaria: #BC793B;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.terciaria{
+    color: var(--terciaria);
+    font-weight: bold;
+}
+
+.terciaria2{
+    color: var(--terciaria);
+    font-weight: bold;
+}
+
+.terciaria2:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.preto{
+    color: black;
+    font-weight: 600;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--primaria);
+    gap: 20rem;
+    /*width: 100%;
+    top: 0rem;
+    position: fixed;*/
+}
+
+header img{
+    width: 8rem;
+    height: 5rem;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Lacquer;
+    flex-wrap: nowrap;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+/*section sobre*/
+.englobar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: justify;
+    width: 40rem;
+
+}
+
+.div1{
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+
+.div2{
+    margin-top: 5rem;
+    background-color: var(--primaria);
+    border-radius: 8px;
+    height: 9.8rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*section murais*/
+.todo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.quadrado{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secundaria);
+    width: 40rem;
+    padding-top: 1rem;
+    border-radius: 8px;
+}
+
+.ilustracao p{
+    width: 19rem;
+    font-weight: 600;
+    font-size: medium;
+    margin-left: 1.7rem;
+}
+
+#murais img{
+    width: 19rem;
+    height: 17rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.texto{
+    width: 17rem;
+    text-align: justify;
+}
+
+
+.quadrado-laranja{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primaria);
+    width: 40rem;
+    padding-top: 1rem;
+    border-radius: 8px;
+    gap: 1rem;
+}
+
+.ilustracao p{
+    width: 19rem;
+    font-weight: 700;
+    font-size: small;
+}
+
+.texto2{
+    width: 14rem;
+    text-align: justify;
+}
+
+.texto3{
+    width: 15rem;
+    text-align: justify;
+}
+
+/*section artista*/
+#artista{
+    background-color: var(--primaria);
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.final img{
+    width: 40rem;
+}
+
+.infos{
+    background-color: var(--quaternaria);
+    color: #fff;
+    width: 40rem;
+    text-align: justify;
+    
+    padding: 1rem;
+    
+}
+
+.branco{
+    font-weight: 600;   
+}
+
+.secundaria{
+    color: var(--secundaria);
+    font-weight: 600;
+}
